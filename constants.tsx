@@ -8,7 +8,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Netflix',
     name: 'Netflix',
     description: 'Assista qualquer serie, qualquer filme e tudo que quiser, sem problema, sem anuncios',
-    image: 'https://picsum.photos/seed/essencial/600/450',
+    image: 'https://i.imgur.com/J6jxdbx.png',
     category: 'Assinaturas',
     variations: [
       { name: 'Netflix Premium ( Tela ) Mensal', price: 25.00 },
@@ -19,7 +19,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Disney',
     name: 'Disney',
     description: 'Tudo da disney por um preço acessivel para você',
-    image: 'https://picsum.photos/seed/pro/600/450',
+    image: 'https://i.imgur.com/4NBpnks.png',
     category: 'Assinaturas',
     variations: [
       { name: 'Disney Premium ( Tela ) Mensal', price: 25.00 },
@@ -29,7 +29,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'HBO MAX',
     name: 'HBO MAX',
     description: 'Tudo da HBO por um preço acessivel para você',
-    image: 'https://picsum.photos/seed/ultra/600/450',
+    image: 'https://i.imgur.com/bp2UYci.png',
     category: 'Assinaturas',
     variations: [
       { name: 'HBO MAX ( Tela ) Mensal', price: 20.00 },
@@ -40,7 +40,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Youtube Premium',
     name: 'Youtube Premium',
     description: 'Todo o youtube completo, sem anúncios e download liberado',
-    image: 'https://picsum.photos/seed/ferramentas/600/450',
+    image: 'https://i.imgur.com/HPssZRr.png',
     category: 'Assinaturas',
     variations: [
       { name: 'Youtube Premium ( Mensal ) Convite para sua conta do GMAIL', price: 20.00 },
@@ -51,7 +51,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Spotify Premium',
     name: 'Spotify Premium',
     description: 'Ouça as melhores músicas e suas músicas preferidas, sem anúncios, por um preço acessível',
-    image: 'https://picsum.photos/seed/produtividade/600/450',
+    image: 'https://i.imgur.com/zU5kOCO.png',
     category: 'Assinaturas',
     variations: [
       { name: 'Spotify Premium ( Mensal ) você recebe uma conta para você acessar o spotify premium por 1 mês', price: 20.00 }
@@ -61,7 +61,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'PRIME VIDEEO',
     name: 'PRIME VIDEO',
     description: 'Tudo da Prime no melhor preço do mercado e o mais acessível para você',
-    image: 'https://picsum.photos/seed/claro/600/450',
+    image: 'https://i.imgur.com/PugXPW9.png',
     category: 'Assinaturas',
     variations: [
       { name: 'Prime + HBO MAX + Apple TV + Paramount + Telecine + Crunchyroll ( Tela ) Mensal', price: 30.00 },
@@ -73,7 +73,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Canva Pro',
     name: 'Canva Pro',
     description: 'Tudo do Canva Pro Liberado por 1 ano para você, por um preço acessivel',
-    image: 'https://picsum.photos/seed/tim/600/450',
+    image: 'https://i.imgur.com/qFGGaPX.png',
     category: 'Assinatura',
     variations: [
       { name: 'Canva Pro ( Anual ) no seu email ( 1 ano de canva pro, 1 ano sem pagar o canva pro )', price: 30.00 },
@@ -83,7 +83,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Combate',
     name: 'Combate',
     description: 'Canal do Combate com o melhor preço do mercado só para você, só aqui',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/0eGubFb.png',
     category: 'Assinatura',
     variations: [
       { name: 'Canal Combate ( Tela ) Mensal', price: 15.00 },
@@ -93,7 +93,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Crunchyroll',
     name: 'Crunchyroll',
     description: 'Canal do Combate com o melhor preço do mercado só para você, só aqui',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/LBxgZlc.png',
     category: 'Assinatura',
     variations: [
       { name: 'Crunchyroll ( Tela ) Mensal', price: 20.00 },
@@ -103,7 +103,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Globoplay',
     name: 'Globoplay',
     description: 'Tudo da Globoplay com o melhor preço do mercado só para você, só aqui',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/u3phSjw.png',
     category: 'Assinatura',
     variations: [
       { name: 'Globoplay sem canais ( Conta ) Mensal', price: 20.00 },
@@ -117,7 +117,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'IPTV e P2P',
     name: 'IPTV e P2P',
     description: 'Tudo de IPTV e P2P com o melhor preço do mercado só para você, só aqui',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/pdcNc7M.png',
     category: 'Assinatura',
     variations: [
       { name: 'IPTV e P2P de Alta Qualidade Mensal', price: 40.00 },
@@ -127,7 +127,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Paramount Plus',
     name: 'Paramount Plus',
     description: 'Tudo da Paramount Plus com o melhor preço do mercado só para você, só aqui',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/z0hTTiR.png',
     category: 'Assinatura',
     variations: [
       { name: 'Paramount + ( Conta ) Mensal', price: 20.00 },
@@ -140,7 +140,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Recarga Claro',
     name: 'Recarga Claro',
     description: 'Recarregue seu CHIP, seu NÚMERO, seu CELULAR, sua INTERNET, sua REDE MOVEL, com os melhores preços, só aqui, só pra você',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/w5d89VB.png',
     category: 'Assinatura',
     variations: [
       { name: 'R$100.00 de crédito você paga pra mim R$70.00', price: 70.00 },
@@ -153,7 +153,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Recarga TIM',
     name: 'Recarga TIM',
     description: 'Recarregue seu CHIP, seu NÚMERO, seu CELULAR, sua INTERNET, sua REDE MOVEL, com os melhores preços, só aqui, só pra você',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/RpCM2Q0.png',
     category: 'Assinatura',
     variations: [
       { name: 'R$100.00 de crédito você paga pra mim R$70.00', price: 70.00 },
@@ -166,7 +166,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Recarga VIVO',
     name: 'Recarga VIVO',
     description: 'Recarregue seu CHIP, seu NÚMERO, seu CELULAR, sua INTERNET, sua REDE MOVEL, com os melhores preços, só aqui, só pra você',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/1h8eGxK.png',
     category: 'Assinatura',
     variations: [
       { name: 'R$100.00 de crédito você paga pra mim R$70.00', price: 70.00 },
@@ -179,7 +179,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Claro TV',
     name: 'Claro TV',
     description: 'Tudo da Claro TV completo, com o melhor preço para você, só aqui',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/ru8o5n8.png',
     category: 'Assinatura',
     variations: [
       { name: 'Claro TV completo ( Tela ) Anual', price: 85.00 },
@@ -191,7 +191,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'UniTV',
     name: 'UniTV',
     description: 'Assista qualquer série, qualquer filme, qualquer desenho, qualquer anime, mais de 400 canais, qualquer partida de futebol, com o melhor preço do mercado só para você, só aqui',
-    image: 'https://picsum.photos/seed/presente/600/450',
+    image: 'https://i.imgur.com/xeoE9dQ.png',
     category: 'Assinatura',
     variations: [
       { name: 'UniTV Código Mensal', price: 30.00 },
