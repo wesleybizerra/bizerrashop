@@ -1,11 +1,10 @@
 import React, { useState, useMemo, useEffect } from 'react';
 // Changed import from 'react-router-dom' to 'react-router' to fix missing exports in the environment
 import { HashRouter as Router, Routes, Route, Link } from 'react-router';
-import { ShoppingCart, Menu, X, Send, Info, Home as HomeIcon, Package, Phone, Tv } from 'lucide-react';
+import { ShoppingCart, Menu, X, Send, Info, Home as HomeIcon, Package, Tv } from 'lucide-react';
 import { CartProvider, useCart } from './context/CartContext';
 import Home from './pages/Home';
 import Products from './pages/Products';
-import Contact from './pages/Contact';
 import TV from './pages/tv';
 import CartModal from './components/CartModal';
 import { SOCIAL_LINKS } from './constants';
@@ -29,7 +28,6 @@ const Navbar: React.FC = () => {
             <Link to="/" className="hover:text-orange-400 transition-colors">Início</Link>
             <Link to="/produtos" className="hover:text-orange-400 transition-colors">Produtos</Link>
             <Link to="/tv" className="hover:text-orange-400 transition-colors flex items-center gap-1"><Tv size={18}/> TV</Link>
-            <Link to="/contato" className="hover:text-orange-400 transition-colors">Contato</Link>
             <button 
               onClick={() => setIsCartOpen(true)}
               className="relative p-2 hover:bg-gray-800 rounded-full transition-all"
@@ -66,7 +64,6 @@ const Navbar: React.FC = () => {
               <Link to="/" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 py-2 text-lg font-bold"><HomeIcon size={20}/> Início</Link>
               <Link to="/produtos" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 py-2 text-lg font-bold"><Package size={20}/> Produtos</Link>
               <Link to="/tv" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 py-2 text-lg font-bold"><Tv size={20}/> TV</Link>
-              <Link to="/contato" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 py-2 text-lg font-bold"><Phone size={20}/> Contato</Link>
             </div>
           </div>
         )}
@@ -94,7 +91,6 @@ const Footer: React.FC = () => {
             <ul className="space-y-2 text-gray-400">
               <li><Link to="/" className="hover:text-white transition-colors">Início</Link></li>
               <li><Link to="/produtos" className="hover:text-white transition-colors">Catálogo de Produtos</Link></li>
-              <li><Link to="/contato" className="hover:text-white transition-colors">Fale Conosco</Link></li>
             </ul>
           </div>
           <div>
@@ -128,7 +124,6 @@ const App: React.FC = () => {
               <Route path="/" element={<Home />} />
               <Route path="/produtos" element={<Products />} />
               <Route path="/tv" element={<TV />} />
-              <Route path="/contato" element={<Contact />} />
             </Routes>
           </main>
           <Footer />
