@@ -1,194 +1,97 @@
 
 import { Product } from './types';
 
+// Catálogo de exemplo — troque livremente por seus produtos reais.
+// A estrutura (id, name, description, image, category, variations) é o que a UI espera.
 export const INITIAL_PRODUCTS: Product[] = [
   {
-    id: 'netflix',
-    name: 'Netflix Premium 4K',
-    description: 'Acesso total aos melhores filmes e séries em ultra definição.',
-    image: 'https://picsum.photos/seed/netflix/400/300',
-    category: 'Streaming',
+    id: 'plano-essencial',
+    name: 'Plano Essencial',
+    description: 'A porta de entrada perfeita: tudo que você precisa, sem complicação.',
+    image: 'https://picsum.photos/seed/essencial/600/450',
+    category: 'Assinaturas',
     variations: [
-      { name: 'Netflix Premium ( Tela ) Mensal', price: 25.00 },
-      { name: 'Netflix Padrão Com Anúncio ( Tela ) Mensal', price: 15.00 }
+      { name: 'Essencial — Mensal', price: 25.00 },
+      { name: 'Essencial — Trimestral', price: 65.00 }
     ]
   },
   {
-    id: 'disney',
-    name: 'Disney Premium',
-    description: 'O mundo mágico da Disney e os melhores esportes da ESPN.',
-    image: 'https://picsum.photos/seed/disney/400/300',
-    category: 'Streaming',
+    id: 'plano-pro',
+    name: 'Plano Pro',
+    description: 'Mais recursos, mais liberdade. Para quem quer ir além do básico.',
+    image: 'https://picsum.photos/seed/pro/600/450',
+    category: 'Assinaturas',
     variations: [
-      { name: 'Disney Premium ( Tela ) Mensal', price: 25.00 }
+      { name: 'Pro — Mensal', price: 40.00 },
+      { name: 'Pro — Trimestral', price: 105.00 },
+      { name: 'Pro — Anual', price: 380.00 }
     ]
   },
   {
-    id: 'hbo',
-    name: 'HBO MAX',
-    description: 'Assista House of the Dragon e sucessos da Warner Bros.',
-    image: 'https://picsum.photos/seed/hbomax/400/300',
-    category: 'Streaming',
+    id: 'plano-ultra',
+    name: 'Plano Ultra',
+    description: 'A experiência completa, sem limites, com prioridade no suporte.',
+    image: 'https://picsum.photos/seed/ultra/600/450',
+    category: 'Assinaturas',
     variations: [
-      { name: 'HBO MAX ( Tela ) Mensal', price: 20.00 },
-      { name: 'HBO MAX ( Conta ) Mensal', price: 25.00 }
+      { name: 'Ultra — Mensal', price: 60.00 },
+      { name: 'Ultra — Anual', price: 580.00 }
     ]
   },
   {
-    id: 'youtube',
-    name: 'Youtube Premium',
-    description: 'Vídeos sem anúncios e acesso ao YouTube Music.',
-    image: 'https://picsum.photos/seed/youtube/400/300',
-    category: 'Música',
-    variations: [
-      { name: 'Youtube Premium 1 Mês ( Convite para 1 conta sua )', price: 20.00 },
-      { name: 'Youtube Premium APK somente para o celular ( Eterno/Pra Sempre )', price: 20.00 }
-    ]
-  },
-  {
-    id: 'spotify',
-    name: 'Spotify',
-    description: 'Sua trilha sonora favorita, em qualquer lugar, sem interrupções.',
-    image: 'https://picsum.photos/seed/spotify/400/300',
-    category: 'Música',
-    variations: [
-      { name: 'Spotify Premium 1 Mês ( uma conta para você acessar )', price: 20.00 }
-    ]
-  },
-  {
-    id: 'prime',
-    name: 'Prime Video',
-    description: 'O melhor do entretenimento com um super combo de canais.',
-    image: 'https://picsum.photos/seed/prime/400/300',
-    category: 'Streaming',
-    variations: [
-      { name: 'PRIME + HBO MAX + APPLE TV + PARAMOUNT + TELECINE+CRUNCHYROLL ( Tela ) Mensal', price: 30.00 },
-      { name: 'PRIME + HBO MAX + PARAMOUNT ( Tela ) Mensal', price: 20.00 },
-      { name: 'PRIME + PREMIRE + CANAIS GLOBO ( Tela ) Mensal', price: 20.00 }
-    ]
-  },
-  {
-    id: 'canva',
-    name: 'Canva',
-    description: 'Designs profissionais de forma simples e rápida.',
-    image: 'https://picsum.photos/seed/canva/400/300',
+    id: 'kit-ferramentas',
+    name: 'Kit Ferramentas Criativas',
+    description: 'Um combo de ferramentas para produzir conteúdo com mais agilidade.',
+    image: 'https://picsum.photos/seed/ferramentas/600/450',
     category: 'Ferramentas',
     variations: [
-      { name: 'Canva Pro Anual ( no seu email )', price: 30.00 }
+      { name: 'Kit Ferramentas — Mensal', price: 30.00 },
+      { name: 'Kit Ferramentas — Anual', price: 280.00 }
     ]
   },
   {
-    id: 'combate',
-    name: 'Combate',
-    description: 'O melhor das lutas e eventos de MMA ao vivo.',
-    image: 'https://picsum.photos/seed/combate/400/300',
-    category: 'Esportes',
+    id: 'pacote-produtividade',
+    name: 'Pacote Produtividade',
+    description: 'Organize sua rotina com um conjunto de apps selecionados.',
+    image: 'https://picsum.photos/seed/produtividade/600/450',
+    category: 'Ferramentas',
     variations: [
-      { name: 'Combate ( Tela ) Mensal', price: 15.00 }
-    ]
-  },
-  {
-    id: 'crunchyroll',
-    name: 'Crunchyroll',
-    description: 'O paraíso dos animes com acesso simultâneo ao Japão.',
-    image: 'https://picsum.photos/seed/crunchy/400/300',
-    category: 'Streaming',
-    variations: [
-      { name: 'Crunchyroll ( Tela ) Mensal', price: 20.00 }
-    ]
-  },
-  {
-    id: 'globoplay',
-    name: 'Globo Play',
-    description: 'Novelas, séries e o Big Brother Brasil 24h.',
-    image: 'https://picsum.photos/seed/globo/400/300',
-    category: 'Streaming',
-    variations: [
-      { name: 'Globo Play Sem Canais ( Conta ) Mensal', price: 20.00 },
-      { name: 'Globo Play Sem Canais ( Tela ) Mensal', price: 10.00 },
-      { name: 'Globo Play + BBB + Canais ( Conta ) Mensal', price: 25.00 },
-      { name: 'Globo Play + BBB + Canais ( Tela ) Mensal', price: 20.00 },
-      { name: 'GLOBOPLAY + BBB + CANAIS + TELECINE ( Tela ) Mensal', price: 20.00 }
-    ]
-  },
-  {
-    id: 'iptv',
-    name: 'IPTV',
-    description: 'Milhares de canais, filmes e séries em alta qualidade.',
-    image: 'https://picsum.photos/seed/iptv/400/300',
-    category: 'IPTV',
-    variations: [
-      { name: 'IPTV E P2P de Alta Qualidade Mensal', price: 40.00 }
-    ]
-  },
-  {
-    id: 'looke',
-    name: 'Looke',
-    description: 'Filmes e séries para toda a família.',
-    image: 'https://picsum.photos/seed/looke/400/300',
-    category: 'Streaming',
-    variations: [
-      { name: 'Looke ( Tela ) Mensal', price: 20.00 }
-    ]
-  },
-  {
-    id: 'paramount',
-    name: 'Paramount+',
-    description: 'Grandes sucessos do cinema e séries exclusivas.',
-    image: 'https://picsum.photos/seed/paramount/400/300',
-    category: 'Streaming',
-    variations: [
-      { name: 'Paramount + ( Conta ) Mensal', price: 20.00 },
-      { name: 'Paramount + ( Tela ) Mensal', price: 15.00 },
-      { name: 'PARAMOUNT + UFC ( Conta ) Mensal', price: 20.00 },
-      { name: 'PARAMOUNT + UFC ( Tela ) Mensal', price: 20.00 }
-    ]
-  },
-  {
-    id: 'unitv',
-    name: 'Uni TV',
-    description: 'A melhor experiência em canais e conteúdo sob demanda.',
-    image: 'https://picsum.photos/seed/unitv/400/300',
-    category: 'IPTV',
-    variations: [
-      { name: 'Uni TV Código Mensal', price: 30.00 }
+      { name: 'Produtividade — Mensal', price: 22.00 }
     ]
   },
   {
     id: 'recarga-claro',
     name: 'Recarga Claro',
-    description: 'Mais barato do mercado! EX: Paga R$ 100 de crédito.',
-    image: 'https://picsum.photos/seed/claro/400/300',
+    description: 'Recarregue seu celular com os melhores valores do mercado.',
+    image: 'https://picsum.photos/seed/claro/600/450',
     category: 'Recarga',
     variations: [
-      { name: 'R$100.00 de crédito', price: 70.00 },
-      { name: 'R$50.00 de crédito', price: 40.00 },
-      { name: 'R$30.00 de crédito', price: 27.00 }
+      { name: 'R$ 100,00 de crédito', price: 70.00 },
+      { name: 'R$ 50,00 de crédito', price: 40.00 },
+      { name: 'R$ 30,00 de crédito', price: 27.00 }
     ]
   },
   {
     id: 'recarga-tim',
     name: 'Recarga TIM',
-    description: 'Mais barato do mercado! EX: Paga R$ 100 de crédito.',
-    image: 'https://picsum.photos/seed/tim/400/300',
+    description: 'Recarregue seu celular com os melhores valores do mercado.',
+    image: 'https://picsum.photos/seed/tim/600/450',
     category: 'Recarga',
     variations: [
-      { name: 'R$100.00 de crédito', price: 70.00 },
-      { name: 'R$50.00 de crédito', price: 40.00 },
-      { name: 'R$40.00 de crédito', price: 35.00 },
-      { name: 'R$30.00 de crédito', price: 27.00 }
+      { name: 'R$ 100,00 de crédito', price: 70.00 },
+      { name: 'R$ 50,00 de crédito', price: 40.00 },
+      { name: 'R$ 30,00 de crédito', price: 27.00 }
     ]
   },
   {
-    id: 'claro-tv',
-    name: 'Claro TV',
-    description: 'Assista tudo do bom e do melhor com a Claro TV no menor preço do Brasil.',
-    image: 'https://picsum.photos/seed/clarotv/400/300',
-    category: 'Streaming',
+    id: 'cartao-presente',
+    name: 'Cartão-Presente Digital',
+    description: 'Um presente rápido de enviar e fácil de resgatar, na hora que quiser.',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Bônus',
     variations: [
-      { name: 'CLARO TV COMPLETO ( Tela ) Anual', price: 85.00 },
-      { name: 'CLARO TV + PREMIERE ( Tela ) 2 Meses', price: 30.00 },
-      { name: 'CLARO TV + PREMIERE ( Tela ) 3 Meses', price: 35.00 }
+      { name: 'R$ 50,00', price: 50.00 },
+      { name: 'R$ 100,00', price: 100.00 }
     ]
   }
 ];
