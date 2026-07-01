@@ -1,8 +1,7 @@
-
 import React, { useState, useMemo, useEffect } from 'react';
 // Changed import from 'react-router-dom' to 'react-router' to fix missing exports in the environment
 import { HashRouter as Router, Routes, Route, Link } from 'react-router';
-import { ShoppingCart, Menu, X, Facebook, Instagram, Youtube, Send, Info, Home as HomeIcon, Package, Phone, Tv } from 'lucide-react';
+import { ShoppingCart, Menu, X, Send, Info, Home as HomeIcon, Package, Phone, Tv } from 'lucide-react';
 import { CartProvider, useCart } from './context/CartContext';
 import Home from './pages/Home';
 import Products from './pages/Products';
@@ -100,10 +99,10 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4 text-orange-400">Conecte-se</h3>
-            <div className="flex justify-center md:justify-start gap-5">
-              <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-orange-600 transition-colors"><Instagram size={20} /></a>
-              <a href={SOCIAL_LINKS.youtube} target="_blank" rel="noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-red-600 transition-colors"><Youtube size={20} /></a>
-              <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors"><Facebook size={20} /></a>
+            <div className="flex flex-col items-center md:items-start gap-4">
+              <a href="https://biowesleybizerra.netlify.app/" target="_blank" rel="noreferrer" className="bg-orange-500 text-white px-5 py-3 rounded-full font-bold text-sm hover:bg-orange-600 transition-colors text-center">
+                CLIQUE AQUI E ENTRE EM CONTATO COM O DONO
+              </a>
               <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noreferrer" className="bg-white p-1 rounded-full hover:scale-110 transition-transform w-9 h-9 flex items-center justify-center">
                 <img src={SOCIAL_LINKS.whatsapp_icon} alt="WA" className="w-full h-full object-contain" />
               </a>
