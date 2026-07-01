@@ -5,93 +5,207 @@ import { Product } from './types';
 // A estrutura (id, name, description, image, category, variations) é o que a UI espera.
 export const INITIAL_PRODUCTS: Product[] = [
   {
-    id: 'plano-essencial',
-    name: 'Plano Essencial',
-    description: 'A porta de entrada perfeita: tudo que você precisa, sem complicação.',
+    id: 'Netflix',
+    name: 'Netflix',
+    description: 'Assista qualquer serie, qualquer filme e tudo que quiser, sem problema, sem anuncios',
     image: 'https://picsum.photos/seed/essencial/600/450',
     category: 'Assinaturas',
     variations: [
-      { name: 'Essencial — Mensal', price: 25.00 },
-      { name: 'Essencial — Trimestral', price: 65.00 }
+      { name: 'Netflix Premium ( Tela ) Mensal', price: 25.00 },
+      { name: 'Netflix Padrão com Anúncios ( Tela ) Mensal', price: 15.00 }
     ]
   },
   {
-    id: 'plano-pro',
-    name: 'Plano Pro',
-    description: 'Mais recursos, mais liberdade. Para quem quer ir além do básico.',
+    id: 'Disney',
+    name: 'Disney',
+    description: 'Tudo da disney por um preço acessivel para você',
     image: 'https://picsum.photos/seed/pro/600/450',
     category: 'Assinaturas',
     variations: [
-      { name: 'Pro — Mensal', price: 40.00 },
-      { name: 'Pro — Trimestral', price: 105.00 },
-      { name: 'Pro — Anual', price: 380.00 }
+      { name: 'Disney Premium ( Tela ) Mensal', price: 25.00 },
     ]
   },
   {
-    id: 'plano-ultra',
-    name: 'Plano Ultra',
-    description: 'A experiência completa, sem limites, com prioridade no suporte.',
+    id: 'HBO MAX',
+    name: 'HBO MAX',
+    description: 'Tudo da HBO por um preço acessivel para você',
     image: 'https://picsum.photos/seed/ultra/600/450',
     category: 'Assinaturas',
     variations: [
-      { name: 'Ultra — Mensal', price: 60.00 },
-      { name: 'Ultra — Anual', price: 580.00 }
+      { name: 'HBO MAX ( Tela ) Mensal', price: 20.00 },
+      { name: 'HBO MAX ( Conta ) Mensal', price: 25.00 }
     ]
   },
   {
-    id: 'kit-ferramentas',
-    name: 'Kit Ferramentas Criativas',
-    description: 'Um combo de ferramentas para produzir conteúdo com mais agilidade.',
+    id: 'Youtube Premium',
+    name: 'Youtube Premium',
+    description: 'Todo o youtube completo, sem anúncios e download liberado',
     image: 'https://picsum.photos/seed/ferramentas/600/450',
-    category: 'Ferramentas',
+    category: 'Assinaturas',
     variations: [
-      { name: 'Kit Ferramentas — Mensal', price: 30.00 },
-      { name: 'Kit Ferramentas — Anual', price: 280.00 }
+      { name: 'Youtube Premium ( Mensal ) Convite para sua conta do GMAIL', price: 20.00 },
+      { name: 'Youtube Premium APK somente para Celular ( Eterno / Para Sempre ) sem anúncios', price: 20.00 }
     ]
   },
   {
-    id: 'pacote-produtividade',
-    name: 'Pacote Produtividade',
-    description: 'Organize sua rotina com um conjunto de apps selecionados.',
+    id: 'Spotify Premium',
+    name: 'Spotify Premium',
+    description: 'Ouça as melhores músicas e suas músicas preferidas, sem anúncios, por um preço acessível',
     image: 'https://picsum.photos/seed/produtividade/600/450',
-    category: 'Ferramentas',
+    category: 'Assinaturas',
     variations: [
-      { name: 'Produtividade — Mensal', price: 22.00 }
+      { name: 'Spotify Premium ( Mensal ) você recebe uma conta para você acessar o spotify premium por 1 mês', price: 20.00 }
     ]
   },
   {
-    id: 'recarga-claro',
-    name: 'Recarga Claro',
-    description: 'Recarregue seu celular com os melhores valores do mercado.',
+    id: 'PRIME VIDEEO',
+    name: 'PRIME VIDEO',
+    description: 'Tudo da Prime no melhor preço do mercado e o mais acessível para você',
     image: 'https://picsum.photos/seed/claro/600/450',
-    category: 'Recarga',
+    category: 'Assinaturas',
     variations: [
-      { name: 'R$ 100,00 de crédito', price: 70.00 },
-      { name: 'R$ 50,00 de crédito', price: 40.00 },
-      { name: 'R$ 30,00 de crédito', price: 27.00 }
+      { name: 'Prime + HBO MAX + Apple TV + Paramount + Telecine + Crunchyroll ( Tela ) Mensal', price: 30.00 },
+      { name: 'Prime + HBO MAX + Paramount ( Tela ) Mensal', price: 20.00 },
+      { name: 'Prime + Premier + Canais Globo ( Tela ) Mensal', price: 20.00 }
     ]
   },
   {
-    id: 'recarga-tim',
-    name: 'Recarga TIM',
-    description: 'Recarregue seu celular com os melhores valores do mercado.',
+    id: 'Canva Pro',
+    name: 'Canva Pro',
+    description: 'Tudo do Canva Pro Liberado por 1 ano para você, por um preço acessivel',
     image: 'https://picsum.photos/seed/tim/600/450',
-    category: 'Recarga',
+    category: 'Assinatura',
     variations: [
-      { name: 'R$ 100,00 de crédito', price: 70.00 },
-      { name: 'R$ 50,00 de crédito', price: 40.00 },
-      { name: 'R$ 30,00 de crédito', price: 27.00 }
+      { name: 'Canva Pro ( Anual ) no seu email ( 1 ano de canva pro, 1 ano sem pagar o canva pro )', price: 30.00 },
     ]
   },
   {
-    id: 'cartao-presente',
-    name: 'Cartão-Presente Digital',
-    description: 'Um presente rápido de enviar e fácil de resgatar, na hora que quiser.',
+    id: 'Combate',
+    name: 'Combate',
+    description: 'Canal do Combate com o melhor preço do mercado só para você, só aqui',
     image: 'https://picsum.photos/seed/presente/600/450',
-    category: 'Bônus',
+    category: 'Assinatura',
     variations: [
-      { name: 'R$ 50,00', price: 50.00 },
-      { name: 'R$ 100,00', price: 100.00 }
+      { name: 'Canal Combate ( Tela ) Mensal', price: 15.00 },
+    ]
+  },
+  {
+    id: 'Crunchyroll',
+    name: 'Crunchyroll',
+    description: 'Canal do Combate com o melhor preço do mercado só para você, só aqui',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Assinatura',
+    variations: [
+      { name: 'Crunchyroll ( Tela ) Mensal', price: 20.00 },
+   ]
+  },
+  {
+    id: 'Globoplay',
+    name: 'Globoplay',
+    description: 'Tudo da Globoplay com o melhor preço do mercado só para você, só aqui',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Assinatura',
+    variations: [
+      { name: 'Globoplay sem canais ( Conta ) Mensal', price: 20.00 },
+      { name: 'Globoplay sem canais ( Tela ) Mensal', price: 10.00 },
+      { name: 'Globoplay + BBB + canais ( Conta ) Mensal', price: 25.00 },
+      { name: 'Globoplay + BBB + canais ( Tela ) Mensal', price: 20.00 },
+      { name: 'Globoplay + BBB + canais + Telecine ( Tela ) Mensal', price: 20.00 },
+  ]
+  },
+  {
+    id: 'IPTV e P2P',
+    name: 'IPTV e P2P',
+    description: 'Tudo de IPTV e P2P com o melhor preço do mercado só para você, só aqui',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Assinatura',
+    variations: [
+      { name: 'IPTV e P2P de Alta Qualidade Mensal', price: 40.00 },
+  ]
+  },
+  {
+    id: 'Paramount Plus',
+    name: 'Paramount Plus',
+    description: 'Tudo da Paramount Plus com o melhor preço do mercado só para você, só aqui',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Assinatura',
+    variations: [
+      { name: 'Paramount + ( Conta ) Mensal', price: 20.00 },
+      { name: 'Paramount + ( Tela ) Mensal', price: 15.00 },
+      { name: 'Paramount + UFC ( Conta ) Mensal', price: 20.00 },
+      { name: 'Paramount + UFC ( Tela ) Mensal', price: 20.00 },
+ ]
+  },
+  {
+    id: 'Recarga Claro',
+    name: 'Recarga Claro',
+    description: 'Recarregue seu CHIP, seu NÚMERO, seu CELULAR, sua INTERNET, sua REDE MOVEL, com os melhores preços, só aqui, só pra você',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Assinatura',
+    variations: [
+      { name: 'R$100.00 de crédito você paga pra mim R$70.00', price: 70.00 },
+      { name: 'R$50.00 de crédito você paga pra mim R$40.00', price: 40.00 },
+      { name: 'R$40.00 de crédito você paga pra mim R$35.00', price: 35.00 },
+      { name: 'R$30.00 de crédito você paga pra mim R$27.00', price: 27.00 },
+ ]
+  },
+  {
+    id: 'Recarga TIM',
+    name: 'Recarga TIM',
+    description: 'Recarregue seu CHIP, seu NÚMERO, seu CELULAR, sua INTERNET, sua REDE MOVEL, com os melhores preços, só aqui, só pra você',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Assinatura',
+    variations: [
+      { name: 'R$100.00 de crédito você paga pra mim R$70.00', price: 70.00 },
+      { name: 'R$50.00 de crédito você paga pra mim R$40.00', price: 40.00 },
+      { name: 'R$40.00 de crédito você paga pra mim R$35.00', price: 35.00 },
+      { name: 'R$30.00 de crédito você paga pra mim R$27.00', price: 27.00 },
+ ]
+  },
+  {
+    id: 'Recarga VIVO',
+    name: 'Recarga VIVO',
+    description: 'Recarregue seu CHIP, seu NÚMERO, seu CELULAR, sua INTERNET, sua REDE MOVEL, com os melhores preços, só aqui, só pra você',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Assinatura',
+    variations: [
+      { name: 'R$100.00 de crédito você paga pra mim R$70.00', price: 70.00 },
+      { name: 'R$50.00 de crédito você paga pra mim R$40.00', price: 40.00 },
+      { name: 'R$40.00 de crédito você paga pra mim R$35.00', price: 35.00 },
+      { name: 'R$30.00 de crédito você paga pra mim R$27.00', price: 27.00 },
+ ]
+  },
+  {
+    id: 'Claro TV',
+    name: 'Claro TV',
+    description: 'Tudo da Claro TV completo, com o melhor preço para você, só aqui',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Assinatura',
+    variations: [
+      { name: 'Claro TV completo ( Tela ) Anual', price: 85.00 },
+      { name: 'Claro TV + Premiere ( Tela ) 2 meses', price: 30.00 },
+      { name: 'Claro TV + Premiere ( Tela ) 3 meses', price: 35.00 },
+  ]
+  },
+  {
+    id: 'UniTV',
+    name: 'UniTV',
+    description: 'Assista qualquer série, qualquer filme, qualquer desenho, qualquer anime, mais de 400 canais, qualquer partida de futebol, com o melhor preço do mercado só para você, só aqui',
+    image: 'https://picsum.photos/seed/presente/600/450',
+    category: 'Assinatura',
+    variations: [
+      { name: 'UniTV Código Mensal', price: 30.00 },
+      { name: 'UniTV ( Anual )', price: 130.00 },
+]
+  },
+  {
+    id: 'Figurinhas da Copa do Mundo',
+    name: 'Figurinhas da Copa do Mundo',
+    description: 'Todas as figurinhas do álbum da copa do mundo 2026, todas as lendárias, todas que existem, no melhor preço que existe, pra você, só aqui',
+    image: 'https://i.imgur.com/ycgXcGZ.png',
+    category: 'Assinatura',
+    variations: [
+      { name: 'Album Completo da Copa do Mundo 2026 ( Todas as Figurinhas Existentes ) Incluindo todas as lendárias', price: 40.00 },
     ]
   }
 ];
