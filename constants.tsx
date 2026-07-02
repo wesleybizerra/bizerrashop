@@ -120,7 +120,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     image: 'https://i.imgur.com/pdcNc7M.png',
     category: 'Assinatura',
     variations: [
-      { name: 'IPTV e P2P de Alta Qualidade Mensal', price: 40.00 },
+      { name: 'IPTV e P2P de Alta Qualidade ( 1 Mês )', price: 50.00 },
+      { name: 'IPTV e P2P de Alta Qualidade ( 2 Meses )', price: 80.00 },
+      { name: 'IPTV e P2P de Alta Qualidade ( 3 Meses )', price: 110.00 },
+      { name: 'IPTV e P2P de Alta Qualidade ( 6 Meses )', price: 200.00 },
+      { name: 'IPTV e P2P de Alta Qualidade ( 1 Ano / 12 Meses / 365 Dias )', price: 360.00 },
   ]
   },
   {
