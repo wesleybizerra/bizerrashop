@@ -76,7 +76,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     image: 'https://i.imgur.com/qFGGaPX.png',
     category: 'Assinatura',
     variations: [
-      { name: 'Canva Pro ( Anual ) no seu email ( 1 ano de canva pro, 1 ano sem pagar o canva pro )', price: 30.00 },
+      { name: 'Canva Pro ( 2 meses ) no seu email - 2 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 30.00 },
     ]
   },
   {
