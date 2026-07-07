@@ -213,9 +213,9 @@ export const INITIAL_PRODUCTS: Product[] = [
 ]
   },
   {
-    id: 'Figurinhas da Copa do Mundo',
-    name: 'Figurinhas da Copa do Mundo',
-    description: 'Todas as figurinhas do álbum da copa do mundo 2026, todas as lendárias, todas que existem, no melhor preço que existe, pra você, só aqui',
+    id: 'CapCut Pro',
+    name: 'CapCut Pro',
+    description: 'Tudo do CapCut Pro durante 3 meses, tudo do CapCut Pro Liberado durante 3 meses',
     image: 'https://i.imgur.com/3kl56pf.png',
     category: 'Assinatura',
     variations: [
