@@ -210,6 +210,16 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Assinatura',
     variations: [
       { name: 'Album Completo da Copa do Mundo 2026 ( Todas as Figurinhas Existentes ) Incluindo todas as lendárias', price: 40.00 },
+]
+  },
+  {
+    id: 'Figurinhas da Copa do Mundo',
+    name: 'Figurinhas da Copa do Mundo',
+    description: 'Todas as figurinhas do álbum da copa do mundo 2026, todas as lendárias, todas que existem, no melhor preço que existe, pra você, só aqui',
+    image: 'https://i.imgur.com/3kl56pf.png',
+    category: 'Assinatura',
+    variations: [
+      { name: 'CapCut Pro ( 3 meses ) Paga agora e terá tudo do capcut pro liberado por 3 meses - Não precisa entrar em conta nenhuma', price: 30.00 },
     ]
   }
 ];
