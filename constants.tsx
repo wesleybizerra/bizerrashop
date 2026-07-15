@@ -12,7 +12,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Assinaturas',
     variations: [
       { name: 'Netflix Premium ( Tela ) Mensal', price: 25.00 },
-      { name: 'Netflix Padrão com Anúncios ( Tela ) Mensal', price: 15.00 }
+      { name: 'Netflix Padrão com Anúncios ( Tela ) Mensal', price: 15.00 },
+      { name: 'Netflix Premium ( Conta ) Mensal', price: 55.00 }
     ]
   },
   {
@@ -23,6 +24,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Assinaturas',
     variations: [
       { name: 'Disney Premium ( Tela ) Mensal', price: 25.00 },
+      { name: 'Disney Premium + Cazé TV ( Conta ) Mensal', price: 35.00 },
+      { name: 'Disney Premium + Cazé TV ( Tela ) Mensal', price: 20.00 }
     ]
   },
   {
@@ -67,7 +70,8 @@ export const INITIAL_PRODUCTS: Product[] = [
       { name: 'Prime + HBO MAX + Apple TV + Paramount + Telecine + Crunchyroll ( Tela ) Mensal', price: 30.00 },
       { name: 'Prime + HBO MAX + Paramount ( Tela ) Mensal', price: 20.00 },
       { name: 'Prime + Premier + Canais Globo ( Tela ) Mensal', price: 20.00 },
-      { name: 'Prime + Cazé TV + HBO MAX + Canais Globo + Sportv + Paramount + Crunchyroll', price: 30.00 }
+      { name: 'Prime + Cazé TV + HBO MAX + Canais Globo + Sportv + Paramount + Crunchyroll', price: 30.00 },
+      { name: 'Prime + Cazé TV', price: 20.00 }
     ]
   },
   {
@@ -112,6 +116,9 @@ export const INITIAL_PRODUCTS: Product[] = [
       { name: 'Globoplay + BBB + canais ( Conta ) Mensal', price: 25.00 },
       { name: 'Globoplay + BBB + canais ( Tela ) Mensal', price: 20.00 },
       { name: 'Globoplay + BBB + canais + Telecine ( Tela ) Mensal', price: 20.00 },
+      { name: 'Globoplay Premium + SporTV ( Tela ) Mensal', price: 20.00 },
+      { name: 'Globoplay Premium + SporTV + Premiere ( Tela ) Mensal', price: 25.00 },
+      { name: 'Globoplay Premium + Telecine + SporTV ( Tela ) Mensal', price: 20.00 }
   ]
   },
   {
