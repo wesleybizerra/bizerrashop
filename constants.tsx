@@ -73,7 +73,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       { name: 'Prime + Cazé TV + HBO MAX + Canais Globo + Sportv + Paramount + Crunchyroll ( Tela ) Mensal', price: 30.00 },
       { name: 'Prime + Cazé TV ( Tela ) Mensal', price: 20.00 },
       { name: 'Prime + Cazé TV + Crunchyroll ( Tela ) Mensal', price: 20.00 },
-      { name: 'Prime + Cazé TV + Paramount ( Tela ) Mensal', price: 20.00 }
+      { name: 'Prime + Cazé TV + Paramount ( Tela ) Mensal', price: 20.00 },
       { name: 'Prime + Cazé TV + Premiere + Canais Globo + Crunchyroll ( Tela ) Mensal', price: 30.00 },
       { name: 'Prime + Cazé TV + Premiere + Crunchyroll ( Tela ) Mensal', price: 30.00 },
       { name: 'Prime + HBO MAX ( Tela ) Mensal', price: 25.00 },
