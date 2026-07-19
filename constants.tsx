@@ -251,7 +251,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'Premiere',
     name: 'Premiere',
     description: 'Tudo da Premiere para você, com o preço mais barato de todos, super acessível para todos',
-    image: 'https://i.imgur.com/3kl56pf.png',
+    image: 'https://i.imgur.com/bvny299.png',
     category: 'Assinatura',
     variations: [
       { name: 'Premiere Tudo Liberado para você com um preço muito bom ( Tela ) 1 mês', price: 20.00 },
