@@ -245,9 +245,6 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Assinatura',
     variations: [
       { name: 'CapCut Pro ( 3 meses ) Paga agora e terá tudo do capcut pro liberado por 3 meses - Não precisa entrar em conta nenhuma', price: 30.00 },
-    ]
-  }
-];
 ]
   },
   {
