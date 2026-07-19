@@ -70,8 +70,14 @@ export const INITIAL_PRODUCTS: Product[] = [
       { name: 'Prime + HBO MAX + Apple TV + Paramount + Telecine + Crunchyroll ( Tela ) Mensal', price: 30.00 },
       { name: 'Prime + HBO MAX + Paramount ( Tela ) Mensal', price: 20.00 },
       { name: 'Prime + Premier + Canais Globo ( Tela ) Mensal', price: 20.00 },
-      { name: 'Prime + Cazé TV + HBO MAX + Canais Globo + Sportv + Paramount + Crunchyroll', price: 30.00 },
-      { name: 'Prime + Cazé TV', price: 20.00 }
+      { name: 'Prime + Cazé TV + HBO MAX + Canais Globo + Sportv + Paramount + Crunchyroll ( Tela ) Mensal', price: 30.00 },
+      { name: 'Prime + Cazé TV ( Tela ) Mensal', price: 20.00 }
+      { name: 'Prime + Cazé TV + Crunchyroll ( Tela ) Mensal', price: 20.00 }
+      { name: 'Prime + Cazé TV + Paramount ( Tela ) Mensal', price: 20.00 }
+      { name: 'Prime + Cazé TV + Premiere + Canais Globo + Crunchyroll ( Tela ) Mensal', price: 30.00 }
+      { name: 'Prime + Cazé TV + Premiere + Crunchyroll ( Tela ) Mensal', price: 30.00 }
+      { name: 'Prime + HBO MAX ( Tela ) Mensal', price: 25.00 }
+      { name: 'Prime + Premiere + Canais Globo + SporTV ( Tela ) Mensal', price: 25.00 }
     ]
   },
   {
@@ -81,7 +87,18 @@ export const INITIAL_PRODUCTS: Product[] = [
     image: 'https://i.imgur.com/qFGGaPX.png',
     category: 'Assinatura',
     variations: [
+      { name: 'Canva Pro ( 2 meses ) no seu email - 1 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 20.00 },
       { name: 'Canva Pro ( 2 meses ) no seu email - 2 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 30.00 },
+      { name: 'Canva Pro ( 3 meses ) no seu email - 3 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 40.00 },
+      { name: 'Canva Pro ( 2 meses ) no seu email - 4 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 50.00 },
+      { name: 'Canva Pro ( 2 meses ) no seu email - 5 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 60.00 },
+      { name: 'Canva Pro ( 3 meses ) no seu email - 6 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 70.00 },
+      { name: 'Canva Pro ( 2 meses ) no seu email - 7 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 80.00 },
+      { name: 'Canva Pro ( 2 meses ) no seu email - 8 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 90.00 },
+      { name: 'Canva Pro ( 2 meses ) no seu email - 9 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 100.00 },
+      { name: 'Canva Pro ( 2 meses ) no seu email - 10 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 110.00 },
+      { name: 'Canva Pro ( 2 meses ) no seu email - 11 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 120.00 },
+      { name: 'Canva Pro ( 2 meses ) no seu email - 12 meses / 1 ano usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 130.00 },
     ]
   },
   {
@@ -228,6 +245,19 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Assinatura',
     variations: [
       { name: 'CapCut Pro ( 3 meses ) Paga agora e terá tudo do capcut pro liberado por 3 meses - Não precisa entrar em conta nenhuma', price: 30.00 },
+    ]
+  }
+];
+]
+  },
+  {
+    id: 'Premiere',
+    name: 'Premiere',
+    description: 'Tudo da Premiere para você, com o preço mais barato de todos, super acessível para todos',
+    image: 'https://i.imgur.com/3kl56pf.png',
+    category: 'Assinatura',
+    variations: [
+      { name: 'Premiere Tudo Liberado para você com um preço muito bom ( Tela ) 1 mês', price: 20.00 },
     ]
   }
 ];
