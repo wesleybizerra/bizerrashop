@@ -268,7 +268,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       { name: 'Lovable Infinito por 3 dia', price: 30.00 },
       { name: 'Lovable Infinito por 7 dias', price: 60.00 },
       { name: 'Lovable Infinito por 30 dias', price: 135.00 },
-      { name: 'Lovable Infinito Vitalicio ( Pra sempre )', price: 190.00 },
+      { name: 'Lovable Infinito Vitalicio ( Pra sempre )', price: 190.00 }
 ]
   },
   {
@@ -278,10 +278,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     image: 'https://i.imgur.com/0h4EWaN.png',
     category: 'Assinatura',
     variations: [
-      { name: 'Contas do Super Grok por 30 dias', price: 70.00 },
+      { name: 'Contas do Super Grok por 30 dias', price: 70.00 }
 ]
   },
-  {
+  }
 
 export const SOCIAL_LINKS = {
   x: 'https://x.com/WesleyBizerraYT',
