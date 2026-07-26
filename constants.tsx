@@ -258,6 +258,30 @@ export const INITIAL_PRODUCTS: Product[] = [
     ]
   }
 ];
+  id: 'Lovable',
+    name: 'Lovable',
+    description: 'Tudo do Lovable AI mais barato e mais acessivel para todos',
+    image: 'https://i.imgur.com/Qq0y3z1.png',
+    category: 'Assinatura',
+    variations: [
+      { name: 'Lovable Infinito por 1 dia', price: 25.00 },
+      { name: 'Lovable Infinito por 3 dia', price: 30.00 },
+      { name: 'Lovable Infinito por 7 dias', price: 60.00 },
+      { name: 'Lovable Infinito por 30 dias', price: 135.00 },
+      { name: 'Lovable Infinito Vitalicio ( Pra sempre )', price: 190.00 },
+    ]
+  }
+];
+  id: 'GROK',
+    name: 'SUPER GROK',
+    description: 'Contas do GROK no Máximo tudo liberado por um preço super acessível e barato para todos',
+    image: 'https://i.imgur.com/0h4EWaN.png',
+    category: 'Assinatura',
+    variations: [
+      { name: 'Contas do Super Grok por 30 dias', price: 70.00 },
+    ]
+  }
+];
 
 export const SOCIAL_LINKS = {
   x: 'https://x.com/WesleyBizerraYT',
