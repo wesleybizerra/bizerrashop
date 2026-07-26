@@ -280,8 +280,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     variations: [
       { name: 'Contas do Super Grok por 30 dias', price: 70.00 }
 ]
-  },
-
+  }
+}
 export const SOCIAL_LINKS = {
   x: 'https://x.com/WesleyBizerraYT',
   youtube: 'https://www.youtube.com/@WesleyBizerra2026',
