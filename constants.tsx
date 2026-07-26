@@ -255,9 +255,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Assinatura',
     variations: [
       { name: 'Premiere Tudo Liberado para você com um preço muito bom ( Tela ) 1 mês', price: 20.00 },
-    ]
-  }
-];
+]
+  },
+  {
   id: 'Lovable',
     name: 'Lovable',
     description: 'Tudo do Lovable AI mais barato e mais acessivel para todos',
@@ -269,9 +269,9 @@ export const INITIAL_PRODUCTS: Product[] = [
       { name: 'Lovable Infinito por 7 dias', price: 60.00 },
       { name: 'Lovable Infinito por 30 dias', price: 135.00 },
       { name: 'Lovable Infinito Vitalicio ( Pra sempre )', price: 190.00 },
-    ]
-  }
-];
+]
+  },
+  {
   id: 'GROK',
     name: 'SUPER GROK',
     description: 'Contas do GROK no Máximo tudo liberado por um preço super acessível e barato para todos',
@@ -279,9 +279,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Assinatura',
     variations: [
       { name: 'Contas do Super Grok por 30 dias', price: 70.00 },
-    ]
-  }
-];
+]
+  },
+  {
 
 export const SOCIAL_LINKS = {
   x: 'https://x.com/WesleyBizerraYT',
