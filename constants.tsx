@@ -261,10 +261,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     image: 'https://i.imgur.com/gA4rHyP.png',
     category: 'Assinatura',
     variations: [
-      { name: '30 dias de internet ilimitada ( Funciona em qualquer lugar )', price: 30.00 }
+     { name: '30 dias de internet ilimitada ( Funciona em qualquer lugar )', price: 30.00 }
 ]
   }
-]
+}
 
 export const SOCIAL_LINKS = {
   x: 'https://x.com/WesleyBizerraYT',
