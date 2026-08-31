@@ -72,13 +72,18 @@ export const INITIAL_PRODUCTS: Product[] = [
       { name: 'Prime + Premier + Canais Globo ( Tela ) Mensal', price: 20.00 },
       { name: 'Prime + Cazé TV + HBO MAX + Canais Globo + Sportv + Paramount + Crunchyroll ( Tela ) Mensal', price: 30.00 },
       { name: 'Prime + Cazé TV ( Tela ) Mensal', price: 20.00 },
+      { name: 'Prime + Cazé TV + HBO MAX ( Tela ) Mensal', price: 20.00 },
       { name: 'Prime + Cazé TV + Crunchyroll ( Tela ) Mensal', price: 20.00 },
       { name: 'Prime + Cazé TV + Paramount ( Tela ) Mensal', price: 20.00 },
       { name: 'Prime + Cazé TV + Premiere + Canais Globo + Crunchyroll ( Tela ) Mensal', price: 30.00 },
       { name: 'Prime + Cazé TV + Premiere + Crunchyroll ( Tela ) Mensal', price: 30.00 },
       { name: 'Prime + HBO MAX ( Tela ) Mensal', price: 25.00 },
+      { name: 'Prime + HBO MAX + Canais Globo + Telecine + Paramount + Crunchyroll + SporTV + Cazé TV  ( Tela ) Mensal', price: 25.00 },
+      { name: 'Prime + Premiere + Canais Globo + Crunchyroll + SporTV ( Tela ) Mensal', price: 25.00 },
       { name: 'Prime + Premiere + Canais Globo + SporTV ( Tela ) Mensal', price: 25.00 },
+      { name: 'Prime + Premiere + Canais Globo + Telecine + SporTV + Cazé ( Tela ) Mensal', price: 25.00 },
       { name: 'Prime + Premiere + HBO Max + Crunchyroll + Cazé TV ( Tela ) Mensal', price: 30.00 },
+      { name: 'Prime + Premiere + HBO Max + Paramount + Cazé TV ( Tela ) Mensal', price: 30.00 },
     ]
   },
   {
@@ -226,16 +231,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     variations: [
       { name: 'UniTV Código Mensal', price: 30.00 },
       { name: 'UniTV ( Anual )', price: 130.00 },
-]
-  },
-  {
-    id: 'Figurinhas da Copa do Mundo',
-    name: 'Figurinhas da Copa do Mundo',
-    description: 'Todas as figurinhas do álbum da copa do mundo 2026, todas as lendárias, todas que existem, no melhor preço que existe, pra você, só aqui',
-    image: 'https://i.imgur.com/ycgXcGZ.png',
-    category: 'Assinatura',
-    variations: [
-      { name: 'Album Completo da Copa do Mundo 2026 ( Todas as Figurinhas Existentes ) Incluindo todas as lendárias', price: 40.00 },
+      { name: 'UniTV ( Vitalício / Para Sempre / Paga só uma vez e fica pra sempre )', price: 140.00 },
 ]
   },
   {
@@ -259,8 +255,8 @@ export const INITIAL_PRODUCTS: Product[] = [
 ]
   },
   {
-  id: 'Lovable',
-    name: 'Lovable',
+  id: 'Lovable ( ESTÁ EM MANUTENÇÃO )',
+    name: 'Lovable ( ESTÁ EM MANUTENÇÃO )',
     description: 'Tudo do Lovable AI mais barato e mais acessivel para todos',
     image: 'https://i.imgur.com/Qq0y3z1.png',
     category: 'Assinatura',
@@ -281,12 +277,22 @@ export const INITIAL_PRODUCTS: Product[] = [
     variations: [
       { name: 'Contas do Super Grok por 30 dias', price: 70.00 }
 ]
+  },
+  {
+  id: 'INTERNET ILIMITADA',
+    name: 'INTERNET ILIMITADA',
+    description: 'Internet infinita durante 30 dias, 30 dias baixando tudo, assistindo de tudo, qualquer vídeo, fazendo o que quiser, sem perder internet, sem gastar internet, e na melhor velocidade',
+    image: 'https://i.imgur.com/gA4rHyP.png',
+    category: 'Assinatura',
+    variations: [
+      { name: '30 dias de internet ilimitada ( Funciona em qualquer lugar )', price: 30.00 }
+]
   }
 ];
 
 export const SOCIAL_LINKS = {
   x: 'https://x.com/WesleyBizerraYT',
-  youtube: 'https://www.youtube.com/@WesleyBizerra2026',
+  youtube: 'https://www.youtube.com/@WesleyNMG10m',
   instagram: 'https://www.instagram.com/wesleybizerraofc/',
   facebook: 'https://www.facebook.com/WesleyBizerra2022/',
   whatsapp: 'https://api.whatsapp.com/send/?phone=5571981574664&text=Olá! Vim pelo site Bizerra Shop e gostaria de mais informações.',
