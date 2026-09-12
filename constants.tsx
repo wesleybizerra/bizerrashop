@@ -242,7 +242,6 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Assinatura',
     variations: [
       { name: 'Premiere Tudo Liberado para você com um preço muito bom ( Tela ) 1 mês', price: 20.00 },
-
 ]
   }
 ];
