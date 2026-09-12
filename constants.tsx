@@ -61,7 +61,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ]
   },
   {
-    id: 'PRIME VIDEEO',
+    id: 'PRIME VIDEO',
     name: 'PRIME VIDEO',
     description: 'Tudo da Prime no melhor preço do mercado e o mais acessível para você',
     image: 'https://i.imgur.com/PugXPW9.png',
@@ -86,7 +86,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Canva Pro',
     description: 'Tudo do Canva Pro Liberado por 1 ano para você, por um preço acessivel',
     image: 'https://i.imgur.com/qFGGaPX.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'Canva Pro ( 2 meses ) no seu email - 1 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 20.00 },
       { name: 'Canva Pro ( 2 meses ) no seu email - 2 meses usando tudo do Canva Pro - 2 meses sem pagar nada com o Canva Pro', price: 30.00 },
@@ -107,7 +107,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Combate',
     description: 'Canal do Combate com o melhor preço do mercado só para você, só aqui',
     image: 'https://i.imgur.com/0eGubFb.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'Canal Combate ( Tela ) Mensal', price: 15.00 },
     ]
@@ -117,7 +117,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Crunchyroll',
     description: 'Canal do Combate com o melhor preço do mercado só para você, só aqui',
     image: 'https://i.imgur.com/LBxgZlc.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'Crunchyroll ( Tela ) Mensal', price: 20.00 },
    ]
@@ -127,7 +127,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Globoplay',
     description: 'Tudo da Globoplay com o melhor preço do mercado só para você, só aqui',
     image: 'https://i.imgur.com/u3phSjw.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'Globoplay sem canais ( Conta ) Mensal', price: 20.00 },
       { name: 'Globoplay sem canais ( Tela ) Mensal', price: 10.00 },
@@ -144,7 +144,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Paramount Plus',
     description: 'Tudo da Paramount Plus com o melhor preço do mercado só para você, só aqui',
     image: 'https://i.imgur.com/z0hTTiR.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'Paramount + ( Conta ) Mensal', price: 20.00 },
       { name: 'Paramount + ( Tela ) Mensal', price: 15.00 },
@@ -157,7 +157,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Recarga Claro',
     description: 'Recarregue seu CHIP, seu NÚMERO, seu CELULAR, sua INTERNET, sua REDE MOVEL, com os melhores preços, só aqui, só pra você',
     image: 'https://i.imgur.com/w5d89VB.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'R$100.00 de crédito você paga pra mim R$70.00', price: 70.00 },
       { name: 'R$50.00 de crédito você paga pra mim R$40.00', price: 40.00 },
@@ -170,7 +170,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Recarga TIM',
     description: 'Recarregue seu CHIP, seu NÚMERO, seu CELULAR, sua INTERNET, sua REDE MOVEL, com os melhores preços, só aqui, só pra você',
     image: 'https://i.imgur.com/RpCM2Q0.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'R$100.00 de crédito você paga pra mim R$70.00', price: 70.00 },
       { name: 'R$50.00 de crédito você paga pra mim R$40.00', price: 40.00 },
@@ -183,7 +183,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Recarga VIVO',
     description: 'Recarregue seu CHIP, seu NÚMERO, seu CELULAR, sua INTERNET, sua REDE MOVEL, com os melhores preços, só aqui, só pra você',
     image: 'https://i.imgur.com/1h8eGxK.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'R$100.00 de crédito você paga pra mim R$70.00', price: 70.00 },
       { name: 'R$50.00 de crédito você paga pra mim R$40.00', price: 40.00 },
@@ -196,7 +196,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Claro TV',
     description: 'Tudo da Claro TV completo, com o melhor preço para você, só aqui',
     image: 'https://i.imgur.com/ru8o5n8.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'Claro TV completo ( Tela ) Anual', price: 85.00 },
       { name: 'Claro TV + Premiere ( Tela ) 2 meses', price: 30.00 },
@@ -208,7 +208,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'UniTV',
     description: 'Assista qualquer série, qualquer filme, qualquer desenho, qualquer anime, mais de 400 canais, qualquer partida de futebol, com o melhor preço do mercado só para você, só aqui',
     image: 'https://i.imgur.com/xeoE9dQ.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'UniTV Código Mensal', price: 30.00 },
       { name: 'UniTV ( Anual )', price: 130.00 },
@@ -219,7 +219,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Figurinhas da Copa do Mundo',
     description: 'Todas as figurinhas do álbum da copa do mundo 2026, todas as lendárias, todas que existem, no melhor preço que existe, pra você, só aqui',
     image: 'https://i.imgur.com/ycgXcGZ.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'Album Completo da Copa do Mundo 2026 ( Todas as Figurinhas Existentes ) Incluindo todas as lendárias', price: 40.00 },
 ]
@@ -229,7 +229,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'CapCut Pro',
     description: 'Tudo do CapCut Pro durante 3 meses, tudo do CapCut Pro Liberado durante 3 meses',
     image: 'https://i.imgur.com/3kl56pf.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'CapCut Pro ( 3 meses ) Paga agora e terá tudo do capcut pro liberado por 3 meses - Não precisa entrar em conta nenhuma', price: 30.00 },
 ]
@@ -239,7 +239,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     name: 'Premiere',
     description: 'Tudo da Premiere para você, com o preço mais barato de todos, super acessível para todos',
     image: 'https://i.imgur.com/bvny299.png',
-    category: 'Assinatura',
+    category: 'Assinaturas',
     variations: [
       { name: 'Premiere Tudo Liberado para você com um preço muito bom ( Tela ) 1 mês', price: 20.00 },
 ]
