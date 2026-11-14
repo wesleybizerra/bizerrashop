@@ -134,25 +134,20 @@ const Home: React.FC = () => {
       {/* Social Proof */}
       <section className="py-20 bg-[var(--surface)] overflow-hidden">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
-          <div className="flex-1 text-center md:text-left">
+          <div className="flex-1 text-center">
             <span className="font-mono text-xs tracking-[0.3em] uppercase text-[var(--accent)]">Comunidade</span>
             <h2 className="font-display text-4xl md:text-5xl mt-3 mb-6 text-[var(--ink)]">JUNTE-SE A QUEM JÁ CONFIA</h2>
-            <p className="text-lg text-[var(--muted)] mb-8 max-w-xl">
+            <p className="text-lg text-[var(--muted)] mb-8 max-w-xl mx-auto">
               Nossa missão é tornar a compra de produtos digitais simples, rápida e sem dor de cabeça — do pedido ao pós-venda.
             </p>
-            <div className="flex items-center gap-4 justify-center md:justify-start">
-               <div className="flex -space-x-3">
-                 {[1,2,3,4].map(i => (
-                   <img key={i} src={`https://picsum.photos/seed/${i + 10}/100/100`} className="w-12 h-12 rounded-full border-2 border-[var(--surface)] object-cover" alt="Cliente" />
-                 ))}
-               </div>
+            <div className="flex items-center gap-4 justify-center">
                <span className="font-semibold text-[var(--ink)]">+5.000 clientes atendidos</span>
             </div>
           </div>
-          
         </div>
       </section>
     </div>
+
   );
 };
 
