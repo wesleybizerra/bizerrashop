@@ -121,7 +121,7 @@ const Footer: React.FC = () => {
                 FALE COM O RESPONSÁVEL
               </a>
               <a href={SOCIAL_LINKS.email} target="_blank" rel="noreferrer" className="bg-white p-1 rounded-full hover:scale-110 transition-transform w-9 h-9 flex items-center justify-center">
-                <img src={SOCIAL_LINKS.email_icon} alt="WhatsApp" className="w-full h-full object-contain" />
+                <img src={SOCIAL_LINKS.email_icon} alt="email" className="w-full h-full object-contain" />
               </a>
             </div>
           </div>
