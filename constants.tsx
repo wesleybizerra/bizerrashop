@@ -1,3 +1,4 @@
+
 import { Product } from './types';
 
 // Catálogo de exemplo — troque livremente por seus produtos reais.
@@ -250,6 +251,6 @@ export const SOCIAL_LINKS = {
   youtube: 'https://www.youtube.com/@WesleyNMG10m',
   instagram: 'https://www.instagram.com/wesleybizerraofc/',
   facebook: 'https://www.facebook.com/WesleyBizerra2022/',
-  'e-mail': 'mailto:wesleybizerra05@gmail.com:// Vir pelo site, gostaria de mais informações sobre o produto',
+  'e-mail': 'mailto:wesleybizerra05@gmail.com',
   email_icon: 'https://i.imgur.com/SGTNveK.png'
 };
