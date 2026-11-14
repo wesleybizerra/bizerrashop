@@ -251,6 +251,6 @@ export const SOCIAL_LINKS = {
   youtube: 'https://www.youtube.com/@WesleyNMG10m',
   instagram: 'https://www.instagram.com/wesleybizerraofc/',
   facebook: 'https://www.facebook.com/WesleyBizerra2022/',
-  'email': 'mailto:wesleybizerra05@gmail.com',
+  email: 'mailto:wesleybizerra05@://gmail.com',
   email_icon: 'https://i.imgur.com/SGTNveK.png'
 };
