@@ -248,9 +248,9 @@ export const INITIAL_PRODUCTS: Product[] = [
 
 export const SOCIAL_LINKS = {
   x: 'https://x.com/WesleyBizerraYT',
-  youtube: 'https://www.youtube.com/@WesleyBizerra2026',
+  youtube: 'https://www.youtube.com/@WesleyNMG10m',
   instagram: 'https://www.instagram.com/wesleybizerraofc/',
   facebook: 'https://www.facebook.com/WesleyBizerra2022/',
-  whatsapp: 'https://api.whatsapp.com/send/?phone=5571981574664&text=Olá! Vim pelo site Bizerra Shop e gostaria de mais informações.',
-  whatsapp_icon: 'https://i.imgur.com/KwTiZyP.png'
+  e-mail: 'mailto:wesleybizerra05@:// Vir pelo site, gostaria de mais informações sobre o produto',
+  email_icon: 'https://i.imgur.com/KwTiZyP.png'
 };
