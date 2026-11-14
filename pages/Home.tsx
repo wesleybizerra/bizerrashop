@@ -36,9 +36,8 @@ const Home: React.FC = () => {
               Ver catálogo <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             <a
-              href={SOCIAL_LINKS.whatsapp}
-              target="_blank"
-              rel="noreferrer"
+               href="mailto:wesleybizerra05@://gmail.com"
+              className="px-8 py-4 bg-white/5 backdrop-blur-md text-[var(--ink)] border border-white/15 rounded-full font-bold text-lg hover:bg-white/10 transition-all""
               className="px-8 py-4 bg-white/5 backdrop-blur-md text-[var(--ink)] border border-white/15 rounded-full font-bold text-lg hover:bg-white/10 transition-all"
             >
               Falar com a loja
