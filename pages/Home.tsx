@@ -140,13 +140,7 @@ const Home: React.FC = () => {
             <p className="text-lg text-[var(--muted)] mb-8 max-w-xl">
               Nossa missão é tornar a compra de produtos digitais simples, rápida e sem dor de cabeça — do pedido ao pós-venda.
             </p>
-            <div className="flex items-center gap-4 justify-center md:justify-start">
-               <div className="flex -space-x-3">
-                 {[1,2,3,4].map(i => (
-                   <img key={i} src={`https://picsum.photos/seed/${i + 10}/100/100`} className="w-12 h-12 rounded-full border-2 border-[var(--surface)] object-cover" alt="Cliente" />
-                 ))}
-               </div>
-               <span className="font-semibold text-[var(--ink)]">+5.000 clientes atendidos</span>
+                           <span className="font-semibold text-[var(--ink)]">+5.000 clientes atendidos</span>
             </div>
           </div>
           <div className="flex-1 relative">
