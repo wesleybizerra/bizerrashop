@@ -18,7 +18,7 @@ const CartModal: React.FC<CartModalProps> = ({ isOpen, onClose }) => {
     if (cart.length === 0) return;
 
     setIsLoading(true);
-    window.location.href = 'https://api.whatsapp.com/send/?phone=71981574664&text&type=phone_number&app_absent=0';
+    window.location.href = 'mailto:wesleybizerra05@://gmail.com';
   };
 
   return (
