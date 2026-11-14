@@ -120,8 +120,8 @@ const Footer: React.FC = () => {
               <a href="https://biowesleybizerra.netlify.app/" target="_blank" rel="noreferrer" className="bg-[var(--accent)] text-black px-5 py-3 rounded-full font-bold text-sm hover:brightness-110 transition-all text-center shadow-[0_8px_24px_rgba(255,106,26,0.35)]">
                 FALE COM O RESPONSÁVEL
               </a>
-              <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noreferrer" className="bg-white p-1 rounded-full hover:scale-110 transition-transform w-9 h-9 flex items-center justify-center">
-                <img src={SOCIAL_LINKS.whatsapp_icon} alt="WhatsApp" className="w-full h-full object-contain" />
+              <a href={SOCIAL_LINKS.email} target="_blank" rel="noreferrer" className="bg-white p-1 rounded-full hover:scale-110 transition-transform w-9 h-9 flex items-center justify-center">
+                <img src={SOCIAL_LINKS.email_icon} alt="WhatsApp" className="w-full h-full object-contain" />
               </a>
             </div>
           </div>
