@@ -1,4 +1,3 @@
-
 import { Product } from './types';
 
 // Catálogo de exemplo — troque livremente por seus produtos reais.
